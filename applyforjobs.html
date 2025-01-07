@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/icon.webp">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="applyforjobs.css">
+</head>
+
+<body>
+    <header class="header container">
+        <a href="index.html">
+        <span class="header-title">JobConnect</span> </a>
+        <nav class="nav">
+          <ul class="nav-items-list">
+            <li><a class="nav-item-link" href="index.html">Home</a></li>
+            <li><a class="nav-item-link" href="login.html">Login</a></li>
+            <li><a class="nav-item-link" href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+      <br>
+      
+    <main>
+      <br> <br> <br>
+      <form action="">
+            <h1>Job Application (Web)</h1>
+            <div class="flex">
+                <div>
+                    <label for="first-name">First Name</label>
+                    <br>
+                    <input type="text" class="input" name="first-name" id="first-name" placeholder="First Name">
+                </div>
+                <div>
+                    <label for="second-name">Second Name</label>
+                    <br>
+                    <input type="text" class="input" name="second-name" id="second-name" placeholder="Second Name">
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <label for="first-name">Email</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Email Id" class="input">
+                </div>
+                <div>
+                    <label for="job-role">Job Role</label>
+                    <br>
+                    <select name="job-role" id="job-role">
+                        <option value="">Frontend Developer</option>
+                        <option value="">Backend Developer</option>
+                        <option value="">Full stack Developer</option>
+                        <option value="">UI/UX Designer</option>
+                    </select>
+                </div>
+            </div>
+            <label for="address">address</label>
+            <textarea name="address" class="input" id="address" placeholder="Enter your address..."></textarea>
+            <div class="flex">
+                <div>
+                    <label for="city">City</label>
+                    <br>
+                    <input type="text" name="city" id="city" placeholder="City" class="input">
+                </div>
+                <div>
+                    <label for="pin-code">Pin Code</label>
+                    <br>
+                    <input type="text" name="pin-code" id="pin-code" placeholder="Pin Code" class="input">
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <label for="date">date</label>
+                    <br>
+                    <input type="date" name="date" id="date" placeholder="Date">
+                </div>
+                <div>
+                    <label for="user-cv">Your CV</label>
+                    <br>
+                    <input type="file" name="user-cv" id="user-cv" placeholder="Upload your CV" class="input">
+                </div>
+            </div>
+            <center>
+                <input type="submit" name="submit" value="Apply Now" style="background-color: #5c7aa5;" disabled>
+            </center>
+        </form>
+    </main>
+    <script src="applyforjobs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobConnect</title>
+    <link rel="stylesheet" href="postjob.css">
+    <link rel="icon" type="image/x-icon" href="/images/icon.webp">
+    <script src="https://kit.fontawesome.com/3c8aec6b0f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header container">
+    <a href="index.html">
+    <span class="header-title">JobConnect</span> </a>
+    <nav class="nav">
+      <ul class="nav-items-list">
+        <li><a class="nav-item-link" href="index.html">Home</a></li>
+        <li><a class="nav-item-link" href="login.html">Login</a></li>
+        <li><a class="nav-item-link" href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br><br><br><br><br>
+    <div id="upload-section">
+        <h1>Post Job</h1>
+        <label for="company">Company Name:</label>
+        <input type="text" id="company" placeholder="Company" />
+        <label for="name">Name of the Post :</label>
+        <input type="text" id="name" placeholder="Software Devloper" /><br>
+        <label for="description">Description :</label>
+        <input type="text" id="description" placeholder="Description"/><br>
+        <label for="salary">Salary :</label>
+        <input type="text" id="salary" placeholder="$50000" /><br>
+        <label for="experience">Experience Required :</label>
+        <input type="text" id="experience" placeholder="4-6 years"/><br>
+        <label for="skills">Skills Required :</label>
+        <input type="text" id="skills"placeholder="HTML"/><br>
+        <button id="post-button">Post Job</button>
+    </div>
+<script type="module" src="postjob.js"></script>
+</body>
+</html>

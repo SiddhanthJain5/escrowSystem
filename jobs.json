@@ -1,0 +1,184 @@
+{
+"jobs":  [
+    {
+        "name_of_post": "Frontend Developer",
+        "description": "Responsible for developing and maintaining user-facing features of web applications.",
+        "salary": "$70,000 - $90,000",
+        "experience_required": "2-4 years",
+        "skills_needed":"HTML, CSS, JavaScript, React",
+        "company_name": "TechWave",
+        "status": "open"
+    },
+    {
+        "name_of_post": "Backend Developer",
+        "description": "Design and implement backend services, APIs, and databases.",
+        "salary": "$85,000 - $105,000",
+        "experience_required": "3-5 years",
+        "skills_needed": "Node.js, Express.js, MongoDB, SQL",
+        "company_name": "CodeWorks",
+        "status": "closed"
+    },
+    {
+        "name_of_post": "Fullstack Developer",
+        "description": "Develop and manage both frontend and backend components of web applications.",
+        "salary": "$95,000 - $120,000",
+        "experience_required": "4-6 years",
+        "skills_needed": ["JavaScript", "React", "Node.js", "SQL"],
+        "company_name": "StackDev Inc.",
+        "status": "open"
+    },
+    {
+        "name_of_post": "UI/UX Designer",
+        "description": "Design user interfaces and experiences to enhance usability and aesthetics.",
+        "salary": "$60,000 - $80,000",
+        "experience_required": "2-4 years",
+        "skills_needed": ["Adobe XD", "Figma", "Prototyping", "Wireframing"],
+        "company_name": "DesignPro",
+        "status": "open"
+    },
+    {
+        "name_of_post": "Frontend Developer",
+        "description": "Optimize website performance and ensure cross-browser compatibility.",
+        "salary": "$75,000 - $95,000",
+        "experience_required": "3-5 years",
+        "skills_needed": ["HTML5", "CSS3", "Angular", "TypeScript"],
+        "company_name": "Webify",
+        "status": "closed"
+    },
+    {
+        "name_of_post": "Backend Developer",
+        "description": "Develop APIs and manage server-side logic for scalable applications.",
+        "salary": "$90,000 - $110,000",
+        "experience_required": "5+ years",
+        "skills_needed": ["Python", "Django", "PostgreSQL", "REST APIs"],
+        "company_name": "ServerSide Solutions",
+        "status": "open"
+    },
+    {
+        "name_of_post": "Fullstack Developer",
+        "description": "Collaborate with designers to turn UI mockups into functional applications.",
+        "salary": "$85,000 - $115,000",
+        "experience_required": "3-5 years",
+        "skills_needed": ["Vue.js", "Laravel", "MySQL", "JavaScript"],
+        "company_name": "DevComplete",
+        "status": "closed"
+    },
+    {
+        "name_of_post": "UI/UX Designer",
+        "description": "Conduct user research and design accessible interfaces for web and mobile platforms.",
+        "salary": "$65,000 - $85,000",
+        "experience_required": "2-4 years",
+        "skills_needed": ["User Research", "Accessibility", "Sketch", "Prototyping"],
+        "company_name": "UserFirst",
+        "status": "open"
+    },
+    {
+        "name_of_post": "Frontend Developer",
+        "description": "Implement responsive web designs and ensure mobile-first development.",
+        "salary": "$70,000 - $90,000",
+        "experience_required": "2-3 years",
+        "skills_needed": ["Bootstrap", "Tailwind CSS", "JavaScript", "React"],
+        "company_name": "PixelTech",
+        "status": "open"
+    },
+    {
+        "name_of_post": "Backend Developer",
+        "description": "Maintain and optimize backend systems for high-performance applications.",
+        "salary": "$95,000 - $115,000",
+        "experience_required": "4-6 years",
+        "skills_needed": ["Ruby on Rails", "Redis", "Docker", "Microservices"],
+        "company_name": "DataFlow",
+        "status": "closed"
+    },
+    {
+        "name_of_post": "Fullstack Developer",
+        "description": "Integrate backend services with dynamic frontend interfaces.",
+        "salary": "$100,000 - $130,000",
+        "experience_required": "5+ years",
+        "skills_needed": ["React", "Node.js", "GraphQL", "PostgreSQL"],
+        "company_name": "FullStack Solutions",
+        "status": "open"
+    },
+    {
+        "name_of_post": "UI/UX Designer",
+        "description": "Create wireframes and prototypes to illustrate design concepts.",
+        "salary": "$55,000 - $75,000",
+        "experience_required": "1-3 years",
+        "skills_needed": ["Figma", "Illustrator", "Wireframing", "Prototyping"],
+        "company_name": "Designify",
+        "status": "closed"
+    },
+    {
+        "name_of_post": "Frontend Developer",
+        "description": "Enhance user interface components for web-based applications.",
+        "salary": "$80,000 - $100,000",
+        "experience_required": "3-5 years",
+        "skills_needed": ["Vue.js", "JavaScript", "SCSS", "Webpack"],
+        "company_name": "Frontify",
+        "status": "open"
+    },
+    {
+        "name_of_post": "Backend Developer",
+        "description": "Develop and maintain scalable cloud-based services.",
+        "salary": "$100,000 - $120,000",
+        "experience_required": "5+ years",
+        "skills_needed": ["Java", "Spring Boot", "AWS", "Kubernetes"],
+        "company_name": "Cloudify",
+        "status": "open"
+    },
+    {
+        "name_of_post": "Fullstack Developer",
+        "description": "Work on both client-side and server-side technologies for SaaS platforms.",
+        "salary": "$95,000 - $125,000",
+        "experience_required": "4-6 years",
+        "skills_needed": ["React", "Node.js", "MongoDB", "RESTful APIs"],
+        "company_name": "SaaSify",
+        "status": "closed"
+    },
+    {
+        "name_of_post": "UI/UX Designer",
+        "description": "Design and improve mobile app user experiences.",
+        "salary": "$70,000 - $90,000",
+        "experience_required": "2-4 years",
+        "skills_needed": ["Adobe XD", "Usability Testing", "Prototyping", "Wireframing"],
+        "company_name": "AppDesign Studio",
+        "status": "open"
+    },
+    {
+        "name_of_post": "Frontend Developer",
+        "description": "Build reusable components and maintain design consistency across web platforms.",
+        "salary": "$75,000 - $95,000",
+        "experience_required": "3-4 years",
+        "skills_needed": ["React", "Redux", "TypeScript", "CSS"],
+        "company_name": "Reactify",
+        "status": "open"
+    },
+    {
+        "name_of_post": "Backend Developer",
+        "description": "Manage APIs and ensure secure access for users and applications.",
+        "salary": "$90,000 - $110,000",
+        "experience_required": "4-6 years",
+        "skills_needed": ["Go", "gRPC", "NoSQL", "Scalability"],
+        "company_name": "SecureBackend",
+        "status": "closed"
+    },
+    {
+        "name_of_post": "Fullstack Developer",
+        "description": "Deliver end-to-end features, ensuring performance and reliability.",
+        "salary": "$85,000 - $115,000",
+        "experience_required": "3-5 years",
+        "skills_needed": ["Angular", "Node.js", "PostgreSQL", "Docker"],
+        "company_name": "DevComplete",
+        "status": "open"
+    },
+    {
+        "name_of_post": "UI/UX Designer",
+        "description": "Collaborate with developers to ensure smooth handoff of design assets.",
+        "salary": "$60,000 - $80,000",
+        "experience_required": "2-3 years",
+        "skills_needed": ["Sketch", "InVision", "Typography", "Visual Design"],
+        "company_name": "CreativeDesigns",
+        "status": "closed"
+    }
+ ]
+} 

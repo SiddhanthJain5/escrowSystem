@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobConnect</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/x-icon" href="/images/icon.webp">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+        <p class="header-title">JobConnect</p> </a>
+        <nav class="nav">
+          <ul class="nav-items-list">
+            <li><a class="nav-item-link" href="index.html">Home</a></li>
+            <li><a class="nav-item-link" href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <div class="login_head">Login</div>
+                <form action="#">
+                    <div class="field input-field">
+                        <input id="loginEmail" type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input id="loginPassword" type="password" placeholder="Password" class="password">
+                    </div>
+
+
+
+                    <div class="field button-field">
+                        <button id="login-btn">Login</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="form signup">
+            <div class="form-content">
+                <div class="signup_head">Signup</div>
+                <form action="#">
+                    <div class="field input-field">
+                        <input id="email" type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input id="password" type="password" placeholder="Create password" class="password">
+                    </div>
+
+                    <div class="field input-field">
+                        <input id="confirmPassword" type="password" placeholder="Confirm password" class="password">
+                    </div>
+
+                    <div class="field button-field">
+                        <button id="signup-btn">Signup</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<script type="module" src="signup.js"></script>
+<script src="loginpage.js"></script>    
+</body>
+</html>
