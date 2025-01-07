@@ -1,4 +1,4 @@
-// Firebase Authentication
+
   import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
   import { getAuth, createUserWithEmailAndPassword , signInWithEmailAndPassword , signOut} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
@@ -15,19 +15,15 @@
     measurementId: "G-C1MX4RBRM3"
   };
 
-  // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
   const auth = getAuth();
 
-
-// SignUp Button
 const signupBtn = document.getElementById("signup-btn");
 
 signupBtn.addEventListener("click", async (event) => {
     event.preventDefault();
 
-    //   Inputs
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
     const confirmPassword = document.getElementById("confirmPassword").value;
@@ -42,7 +38,7 @@ signupBtn.addEventListener("click", async (event) => {
     } else {
       createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
-    // Signed up 
+ 
     const user = userCredential.user;
     console.log(user);
     window.alert("Creating Account...");
@@ -58,7 +54,7 @@ signupBtn.addEventListener("click", async (event) => {
 }
 });
 
-//Login Button
+
 const loginBtn = document.getElementById("login-btn");
 loginBtn.addEventListener("click", async (event) => {
     event.preventDefault();
